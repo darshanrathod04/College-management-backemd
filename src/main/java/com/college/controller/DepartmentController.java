@@ -20,11 +20,8 @@ import org.springframework.web.bind.annotation.*;
 
 @RequiredArgsConstructor
 
-@Tag(
-        name = "Department APIs",
-
-        description =
-                "Operations Related To Departments"
+@Tag(name = "Department APIs",
+        description = "Operations Related To Departments"
 )
 
 public class DepartmentController {
