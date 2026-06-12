@@ -75,11 +75,8 @@ public class StudentDTO {
     )
 
     @Schema(
-            description =
-                    "Department Identifier",
-
-            example =
-                    "1"
+            description = "Department Identifier",
+            example = "1"
     )
     private Long departmentId;
 }
